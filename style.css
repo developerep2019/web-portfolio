@@ -6,8 +6,15 @@ body {
 h1{
     font-size: 50px;
 }
+h2 {
+    font-size: 40px;
+}
 
-.name-highlight {
+p {
+    color : dimgray;
+}
+
+.orange-highlight {
     color : orange;
 }
 
@@ -28,7 +35,7 @@ h1{
     
 }
 
-.half-width a {
+.link-btn{
     text-decoration : none;
     background : linear-gradient(45deg, lightsalmon, tomato);
     border-radius: 10px;
@@ -37,6 +44,39 @@ h1{
     font-weight: bold;
 }
 
-#dream-area {
-    padding-top: 100px;
+.dream-area{
+    background-image: url('images/dream-bg.png');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+.experiences-area {
+    height : 500px;
+    background-image: url('images/exp-bg.png');
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.single-experiences {
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height : 60%;
+    background-color: white;
+}
+
+#full-stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#baby-web {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
 }
